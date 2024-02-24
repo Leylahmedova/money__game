@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  background-color: rgb(30, 20, 63);
+  padding: 20px;
+}
+form {
+  display: flex;
+  gap: 10px;
+}
+#main {
+  margin-top: 20px;
+}
+input {
+  border: 1px solid #b1b1b1;
+  padding: 10px;
+  outline: 0;
+  border-radius: 4px;
+  font-size: 17px;
+}
+button {
+  padding: 0 10px;
+  border: 1px solid #dedede;
+  cursor: pointer;
+  outline: 0;
+  font-size: 17px;
+  border-radius: 4px;
+}
+.row {
+  margin-top: 10px;
+  height: 200px;
+  position: relative;
+}
+.row img {
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+h1 {
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  right: 40%;
+  top: 90px;
+}
